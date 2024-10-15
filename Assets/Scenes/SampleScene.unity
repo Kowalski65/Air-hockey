@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 125304651}
   - component: {fileID: 125304650}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: Gate2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249,7 +249,8 @@ Transform:
   m_LocalPosition: {x: 8.19, y: -3.06, z: 0}
   m_LocalScale: {x: 3.0766118, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2143978739}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.268}
 --- !u!1 &519420028
@@ -356,7 +357,7 @@ GameObject:
   - component: {fileID: 707537793}
   - component: {fileID: 707537792}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -486,7 +487,7 @@ GameObject:
   - component: {fileID: 803315020}
   - component: {fileID: 803315019}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -764,7 +765,7 @@ GameObject:
   - component: {fileID: 1356451517}
   - component: {fileID: 1356451516}
   m_Layer: 0
-  m_Name: Square (5)
+  m_Name: Gate1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -879,7 +880,8 @@ Transform:
   m_LocalPosition: {x: -8.11, y: -3.03, z: 0}
   m_LocalScale: {x: 3.0766118, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1797381215}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.268}
 --- !u!1 &1456346893
@@ -1058,7 +1060,7 @@ GameObject:
   - component: {fileID: 1797381214}
   - component: {fileID: 1797381213}
   m_Layer: 0
-  m_Name: Square (6)
+  m_Name: gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1169,12 +1171,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797381212}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7087569, w: 0.7054528}
-  m_LocalPosition: {x: -7.98, y: 3.49, z: 0}
-  m_LocalScale: {x: 3.0766118, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.12, y: 0.01, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1356451518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.268}
 --- !u!1 &2143978736
 GameObject:
@@ -1188,7 +1190,7 @@ GameObject:
   - component: {fileID: 2143978738}
   - component: {fileID: 2143978737}
   m_Layer: 0
-  m_Name: Square (4)
+  m_Name: gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1299,12 +1301,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143978736}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7087569, w: 0.7054528}
-  m_LocalPosition: {x: 8.16, y: 3.33, z: 0}
-  m_LocalScale: {x: 3.0766118, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.076892, y: -0.059858322, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 125304652}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.268}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1316,6 +1318,4 @@ SceneRoots:
   - {fileID: 707537794}
   - {fileID: 125304652}
   - {fileID: 803315021}
-  - {fileID: 2143978739}
   - {fileID: 1356451518}
-  - {fileID: 1797381215}
